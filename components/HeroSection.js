@@ -11,7 +11,7 @@ export const HeroSection = () => {
 
             {/* Right side with hero image */}
             <div className="md:flex-1">
-                <img src="/images/hero-image.jpg" alt="Hero Image" className="w-full h-full object-cover" />
+                <img src="/images/hero-image.png" alt="Hero Image" className="w-full h-full object-cover" />
             </div>
         </section>
     )
