@@ -1,9 +1,10 @@
 import React from 'react';
 import Link from 'next/link';
 import '../styles/globals.css';
+import Button from './button';
 
 
-export const NavBar = () => {
+export default function NavBar() {
     return (
         <nav className="text-black p-4">
             <div className="container mx-auto flex justify-between items-center">
@@ -28,6 +29,8 @@ export const NavBar = () => {
                     </Link>
                 </div>
             </div>
+            {/* <Button /> */}
         </nav>
+
     );
 }

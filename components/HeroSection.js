@@ -1,7 +1,8 @@
 import React from 'react';
 import Image from 'next/image';
 
-export const HeroSection = () => {
+
+export default function HeroSection() {
     return (
         <section className="flex flex-col-reverse md:flex-row items-center">
             {/* Left side with header texts */}

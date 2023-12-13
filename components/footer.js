@@ -1,0 +1,44 @@
+import React from "react";
+import Image from 'next/image';
+
+export default function Footer() {
+    return <>
+        <section className="bg-green-900 text-white py-16 px-9">
+            <div className="lg:flex">
+                <div>
+                    <h3 className="font-bold text-2xl">codePlay72</h3>
+                    <p className="my-9">codePlay72 is a company born out of the hope of developing and building African child in preparing them for the future of digital technology</p>
+                </div>
+                <div className="lg:ml-9">
+                    <h4 className="font-bold text-lg">Quick links</h4>
+                    <div className="flex text-green-300">
+                        <h5 className="">about</h5>
+                        <h5 className="px-4">blog</h5>
+                    </div>
+                    <div className="flex text-green-300">
+                        <h5 className="">courses</h5>
+                        <h5 className="px-4">contact</h5>
+                    </div>
+                </div>
+                <div className="lg:ml-9">
+                    <h4 className="font-bold text-lg">Contact us</h4>
+                    <h5 className="text-green-300">+234 703 0058 172</h5>
+                    <h5 className="text-green-300">hellocodeplay72@gmail.com</h5>
+                </div>
+                <div className="lg:ml-9">
+                    <h4 className="font-bold text-lg">Find us</h4>
+                    <h5 className="text-green-300">7A Hara-hyel House, Dogon Karfe, Jos Plateau State.</h5>
+                </div>
+            </div>
+            <div className="border-t border-solid border-green-300 my-4 py-4">
+                <div>
+                    <p>copyright 2023 | All Right</p>
+                    <p>Reserved</p>
+                </div>
+                <div>
+
+                </div>
+            </div>
+        </section>
+    </>
+  }
