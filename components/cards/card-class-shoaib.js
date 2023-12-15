@@ -9,17 +9,67 @@ export default function CardClassShoaib() {
             </div>
             <div className="mt-8">
                 <h4 className="font-semibold text-sm text-purple-500"> Design</h4>
-                <h2 className="font-semibold text-4xl my-6">Learn With Shoaib</h2>
+                <div className="flex justify-between">
+                    <h2 className="font-semibold text-4xl my-6">Learn With Shoaib</h2>
+                    <Image
+                        src={'/arrow-up-right.svg'}
+                        alt='arrow icon'
+                        width={24}
+                        height={26}
+                    ></Image>
+                </div>
                 <p className="mb-1">Design Web Sites and Mobile Apps that Your Users Love and Return to Again.</p>
             </div>
             <div className="flex">
                 <p className="text-purple-500">3.9</p>
-                <p className="mx-4">rating starts</p>
-                <p>counts</p>
+                <Image
+                    className="pr-2"
+                    src={'/Star 1.svg'}
+                    alt='star icon'
+                    width={24}
+                    height={26}
+                ></Image>
+                <Image
+                    className="pr-2"
+                    src={'/Star 1.svg'}
+                    alt='star icon'
+                    width={24}
+                    height={26}
+                ></Image>
+                <Image
+                    className="pr-2"
+                    src={'/Star 1.svg'}
+                    alt='star icon'
+                    width={24}
+                    height={26}
+                ></Image>
+                <Image
+                    className="pr-2"
+                    src={'/Star 1.svg'}
+                    alt='star icon'
+                    width={24}
+                    height={26}
+                ></Image>
+                <Image
+                    className="pr-2"
+                    src={'/Star 1.svg'}
+                    alt='star icon'
+                    width={24}
+                    height={26}
+                ></Image>
+                <p>(832)</p>
             </div>
             <div className="flex justify-between items-center mt-6">
                 <div className="flex items-center">
-                    <div className="w-9 h-9 bg-yellow-500 rounded-full"></div>
+                    <div>
+                        <Image
+                            className="w-9 h-9 rounded-full"
+                            src={'/Avatar.png'}
+                            alt='star icon'
+                            width={24}
+                            height={26}
+                        ></Image>
+                    </div>
                     <div className="ml-4 text-sm">
                         <p className="font-bold">Jenny Wilson</p>
                         <p>2001 Enrolled</p>

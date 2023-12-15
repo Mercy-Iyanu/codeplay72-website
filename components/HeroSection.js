@@ -1,5 +1,6 @@
 import React from 'react';
 import Image from 'next/image';
+import WatchwordIcon from './Watchwords-icon';
 
 
 export default function HeroSection() {
@@ -9,6 +10,7 @@ export default function HeroSection() {
             <div className="md:w-1/2 p-4 md:p-8 text-center md:text-left">
                 <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-4">A Digital <span className='theme_color'>Playground</span> For Every <span className='secondary_color'>Child</span> to <span className='theme_color'>Learn and Play</span></h1>
                 <h2 className="text-lg md:text-xl font-light">Codeplay72 helps with Endless possibilities for every child to learn and Grow</h2>
+                <WatchwordIcon />
             </div>
 
             {/* Right side with hero image */}

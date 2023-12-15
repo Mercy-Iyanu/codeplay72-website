@@ -72,7 +72,7 @@ export default function HomePage() {
                     <div>
 
                     </div>
-                    <div className="md:flex md:flex-wrap md:justify-center">
+                    <div className="xl:grid xl:grid-cols-2 xs:flex sm:flex-wrap sm:justify-center">
                         <CardPlaygroundHome />
                         <CardPlaygroundPrivate />
                         <CardPlaygroundCube />

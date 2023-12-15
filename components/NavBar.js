@@ -29,7 +29,7 @@ export default function NavBar() {
                     </Link>
                 </div>
             </div>
-            {/* <Button /> */}
+            <Button />
         </nav>
 
     );
