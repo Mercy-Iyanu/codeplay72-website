@@ -1,5 +1,9 @@
 export default function Button({ value }) {
     return <>
-        <button className="my-2 block w-full px-3 py-3 bg-green-600 rounded-md text-md text-white text-center">Register Now</button>
+        <button
+            className="my-2 flex w-138 h-57 p-10 px-16 justify-center items-center gap-8 rounded-8 border border-primary-base-color bg-primary-base-color shadow-button"
+        >
+            Register Now
+        </button>
     </>
 }

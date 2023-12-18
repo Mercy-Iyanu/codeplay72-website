@@ -4,14 +4,59 @@
 @import 'tailwindcss/utilities';
 
 .theme_color {
-    color: #108D15;
+    color: #AAFFC7;
 }
-
-.header_color _ {
-    background: #108D15;
-}
-
 
 .secondary_color {
-    color: rgba(252, 212, 0, 0.93);
+    color: #FCD400;
+}
+
+.bg-custom-green {
+    position: relative;
+    background-color: #108D15;
+}
+
+/* Register Button Style Starts */
+
+.border-primary-base-color {
+    border-color: #108D15;
+}
+
+.shadow-button {
+    box-shadow: 0 0 0 4px #F4EBFF, 0 1px 2px 0 rgba(16, 24, 40, 0.05);
+}
+
+/* Register Button Style Ends */
+
+.blob {
+    content: '';
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    background-color: #109815;
+    border-radius: 50%;
+}
+
+.blob::before,
+.blob::after {
+    content: '';
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background-color: #109815;
+    border-radius: 50%;
+}
+
+.blob::before {
+    top: -50px;
+    /* Adjust the position of the blob */
+    left: -50px;
+    /* Adjust the position of the blob */
+}
+
+.blob::after {
+    top: -50px;
+    /* Adjust the position of the blob */
+    right: -50px;
+    /* Adjust the position of the blob */
 }
