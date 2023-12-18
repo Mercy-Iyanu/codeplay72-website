@@ -21,17 +21,24 @@ import CardCourseRobotics from '../cards/card-course-robotics';
 import CardProgramUser from '../cards/card-program-user';
 import CardProgramWeb from '../cards/card-program-web';
 import CardProgramMarketing from '../cards/card-program-marketing';
-import Testimoial from './testimonial';
+import YoungGirlPointing from '../cards/card-girl-pointing';
+import OurPartners from '../Partners';
+import Testimonial from './testimonial';
 
 export default function HomePage() {
     return (
         <>
             <div className='container-body'>
+                {/* Header */}
                 <header>
                     <NavBar />
                     <HeroSection />
                 </header>
-                <Kiddies />
+
+                {/* Kids holding hands */}
+                <section>
+                    <Kiddies />
+                </section>
 
                 {/* Programs */}
                 <section className="my-9">
@@ -69,15 +76,22 @@ export default function HomePage() {
                 {/* Program Play ground */}
                 <section className="py-9">
                     <h2 className="text-center font-bold text-3xl ">Programme Playground</h2>
-                    <div>
+                    <div className='flex'>
+                        <div>
+                            <YoungGirlPointing />
+                        </div>
+                        <div className="xl:grid xl:grid-cols-2 xs:flex sm:flex-wrap sm:justify-center">
+                            <CardPlaygroundHome />
+                            <CardPlaygroundPrivate />
+                            <CardPlaygroundCube />
+                            <CardPlaygroundSchool />
+                        </div>
+                    </div>
+                </section>
 
-                    </div>
-                    <div className="xl:grid xl:grid-cols-2 xs:flex sm:flex-wrap sm:justify-center">
-                        <CardPlaygroundHome />
-                        <CardPlaygroundPrivate />
-                        <CardPlaygroundCube />
-                        <CardPlaygroundSchool />
-                    </div>
+                {/* Partners Icons */}
+                <section>
+                    <OurPartners />
                 </section>
 
                 {/* Why Take Our Course */}
@@ -89,7 +103,8 @@ export default function HomePage() {
                         <CardOurWhyExpert />
                     </div>
                 </section>
-                <Testimoial></Testimoial>
+
+                <Testimonial></Testimonial>
                 <Footer></Footer>
             </div>
         </>
