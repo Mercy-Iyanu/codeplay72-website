@@ -6,15 +6,15 @@ import Button from './button';
 
 export default function NavBar() {
     return (
-        <nav className="text-black p-4">
+        <nav className="text-black p-4 pb-0">
             <div className="container mx-auto flex justify-between items-center">
                 {/* Logo */}
                 <Link href="/" passHref>
-                    <span className="text-xl font-bold cursor-pointer theme_color">codePlay72</span>
+                    <span className="text-xl font-bold cursor-pointer logo-text">codePlay72</span>
                 </Link>
 
                 {/* Navigation Links */}
-                <div className="space-x-4">
+                <div className="space-x-4 flex">
                     <Link href="/testimonials" passHref>
                         <span className="cursor-pointer">Testimonials</span>
                     </Link>
@@ -27,9 +27,10 @@ export default function NavBar() {
                     <Link href="/signin" passHref>
                         <span className="cursor-pointer">Sign In</span>
                     </Link>
+                    <Button />
                 </div>
             </div>
-            <Button />
+
         </nav>
 
     );

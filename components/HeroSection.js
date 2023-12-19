@@ -16,6 +16,12 @@ export default function HeroSection() {
                 <WatchwordIcon />
             </div>
             <div className="blob"></div>
+            {/* Image positioned to the right */}
+            <div
+                className="bg-image bg-right md:w-1/2 h-full hidden md:block"
+                style={{ backgroundImage: `url('/heros-image.png ')`, backgroundPosition: 'right center' }}
+            ></div>
+
         </section>
 
 

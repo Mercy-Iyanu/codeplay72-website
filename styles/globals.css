@@ -3,6 +3,10 @@
 @import 'tailwindcss/components';
 @import 'tailwindcss/utilities';
 
+.logo-text {
+    color: #108D15;
+}
+
 .theme_color {
     color: #AAFFC7;
 }
@@ -20,6 +24,11 @@
 
 .border-primary-base-color {
     border-color: #108D15;
+    border-radius: 8px;
+}
+
+.button-font-size {
+    font-size: .5em;
 }
 
 .shadow-button {
@@ -59,4 +68,17 @@
     /* Adjust the position of the blob */
     right: -50px;
     /* Adjust the position of the blob */
+}
+
+.bg-image {
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.bg-right {
+    background-position: right center;
+}
+
+@media (max-width: 650px) {
+    .header-text {}
 }
