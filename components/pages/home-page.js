@@ -62,7 +62,7 @@ export default function HomePage() {
 
                 {/* Pragram Classes */}
                 <section className="my-9 ">
-                    <div className="m-6 md:ml-16">
+                    <div className="m-6 md:ml-16 pr-6">
                         <h2 className=" font-bold text-3xl ">Most Popular Classes</h2>
                         <p>Join our famous classes, and have your future defined with endless posibilities.</p>
                     </div>

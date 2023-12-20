@@ -10,7 +10,7 @@ export default function CardProgramUser() {
                         src={'/Icon.svg'}
                         alt='a user expirence icon'
                         width={24}
-                        height={26}
+                        height={24}
                     ></Image>
                 </div>
                 <h2 className='space-x-4 text-2xl font-semibold'>

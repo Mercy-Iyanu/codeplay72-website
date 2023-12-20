@@ -80,5 +80,7 @@
 }
 
 @media (max-width: 650px) {
-    .header-text {}
+    .header-text {
+        font-size: 40px;
+    }
 }

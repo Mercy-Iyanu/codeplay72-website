@@ -7,20 +7,14 @@ export default function HeroSection() {
     return (
         <section className="flex flex-col-reverse md:flex-row items-center bg-custom-green text-white relative">
             <div className="w-full md:w-1/2 p-4 md:p-8 text-center md:text-left relative z-10">
-                <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-4">
-                    A Digital <span className='theme-color'>Playground</span> For Every <span className='secondary-color'>Child</span> to <span className='theme-color'>Learn and Play</span>
-                </h1>
-                <h2 className="text-lg md:text-xl font-light">
-                    Codeplay72 helps with Endless possibilities for every child to learn and Grow
-                </h2>
+                <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-4 logo-text">A Digital <span className='theme_color'>Playground</span> For Every <span className='secondary_color'>Child</span> to <span className='theme_color'>Learn and Play</span></h1>
+                <h2 className="text-lg md:text-xl font-light">Codeplay72 helps with Endless possibilities for every child to learn and Grow</h2>
                 <WatchwordIcon />
             </div>
             <div className="blob"></div>
-            {/* Image positioned to the right */}
-            <div
-                className="bg-image bg-right md:w-1/2 h-full hidden md:block"
-                style={{ backgroundImage: `url('/heros-image.png ')`, backgroundPosition: 'right center' }}
-            ></div>
+            <div className="">
+                <Image src="/heros-image.png" width={100} height={100} layout="responsive" />
+            </div>
 
         </section>
 

@@ -11,7 +11,7 @@ export default function WatchwordIcon() {
                     width={24}
                     height={26}
                 ></Image>
-                <h2 className=''>
+                <h2 className='pl-2'>
                     Public Speaking
                 </h2>
             </div>
@@ -23,7 +23,7 @@ export default function WatchwordIcon() {
                     width={24}
                     height={26}
                 ></Image>
-                <h2 className=''>
+                <h2 className='pl-2'>
                     Career-Oriented
                 </h2>
             </div>
@@ -35,7 +35,7 @@ export default function WatchwordIcon() {
                     width={24}
                     height={26}
                 ></Image>
-                <h2 className=''>
+                <h2 className='pl-2'>
                     Creative Thinking
                 </h2>
             </div>
